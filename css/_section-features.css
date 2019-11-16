@@ -1,0 +1,14 @@
+.ba-section-features {
+  background: #ffffff;
+  min-height: 355px;
+  color: #777777; }
+
+.ba-section-features__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+/*# sourceMappingURL=_section-features.css.map */

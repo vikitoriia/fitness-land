@@ -1,0 +1,59 @@
+.ba-section-trainers{
+	background: #222222 url(../img/section-trainers-bg.png) 50% no-repeat;
+	background-size: cover;
+	color: $text-color-dark;
+	padding: 60px 0 59px 0;
+}
+
+.ba-section-trainers{
+	&__title{
+		margin: 0 auto;
+		color: #fff;
+		font-weight: 700;
+		text-align: center;
+
+		&::after{
+			content: "";
+			display: block;
+			height: 1px;
+			background-color: #fff;
+			width: 45px;
+			margin: 9px auto 0;
+		}
+	}
+
+	&__post{
+		// display: flex;
+		// margin: 0 auto;
+		padding-top: 60px;
+		
+
+		&-info{
+			background-color: #fff;
+			max-width: 270px;
+			max-height: 315px;
+			margin-bottom: 20px;
+		}
+
+		&-title{
+			padding-top: 15px;
+			padding-left: 20px;
+			color: $text-color-dark;
+			line-height: 1;
+			text-transform: uppercase;
+
+		}
+
+		&-position{
+			padding-bottom: 18px;
+			padding-left: 20px;
+			line-height: 1.5;
+			margin: 0;
+			color: #afafaf;
+			font-size: 12px;
+			font-family: $body-title;
+		}
+	}
+
+	
+}

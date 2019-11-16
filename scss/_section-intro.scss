@@ -1,0 +1,48 @@
+.ba-section-intro{
+	background: $text-color-dark url(../img/intro-bg.png) 50% no-repeat;
+	background-size: cover;
+	max-height: 100vh;
+
+	color: #fefefe;
+	margin-top: 75px;
+	display: flex;
+	align-items: center;
+	
+	@media screen and (min-width:$medium){
+		margin-top: 100px;	
+	}
+
+	&__inner{
+		margin-left: 7px;
+
+		&-lpt{
+			margin-top: 217px;
+			padding: 11px 13px 11px 12px;
+			background: rgba(212, 80, 79, 0.9);
+			max-width: 148px;
+			max-height: 33px;
+			font-weight: 400;			 
+		}
+
+		&-title{
+			margin: 2px 0;
+			padding: 20px 22px 18px 22px;
+			background:rgba(38, 37, 36, 0.9);
+			max-width: 279px;
+			max-height: 66px;
+			font-weight: 700;
+			@media screen and (min-width:$medium){
+				max-width: 380px;
+			} 
+		}
+
+		&-subtitle{
+			margin-bottom: 215px;
+			padding: 15px 25px 13px 24px;
+			background:rgba(38, 37, 36, 0.9);
+			width: 258px;
+			height: 45px;
+			font-weight: 400;
+		}
+	}
+}

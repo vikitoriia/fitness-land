@@ -1,0 +1,139 @@
+.ba-section-contact{
+	color: #ffffff;
+	background: #202020 url(../img/footer-bg.jpg) 50% no-repeat;
+	background-size: cover;
+	padding: 36px 0 40px;
+
+	&__tweets{
+		position: relative;
+		display: flex;
+		text-align: left;
+		align-items: center;
+		border-bottom: 1px solid #323232;
+
+		&-subtitle{
+			font-size: 13px;
+			line-height: 22px;
+			font-family: $body-font-family;
+			max-width: 575px;
+			padding-left: 16px;
+			color: #c0c0c0;
+		}
+
+		&-icon{
+			position: absolute;
+			right: 15px;
+			color: #fff;
+
+			a{
+				margin-right: 15px;
+
+				svg{
+					fill: currentColor;
+				}
+			}
+		}
+	}
+
+	&__post{
+		padding-top: 45px;
+		padding-bottom: 148px;
+		color: #c6c6c6;
+
+		@media screen and (min-width:$medium){
+			padding-top: 63px;
+			padding-bottom: 148px;
+		}
+
+		&-title{
+			padding-bottom: 20px;
+			color: #fff;
+
+			@media screen and (min-width:$medium){
+				padding-bottom: 30px;
+			}
+		}
+
+		&-subtitle{
+			margin: 0;
+		}
+
+		&-list{
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			padding-top: 20px;
+			padding-bottom: 30px;
+
+			@media screen and (min-width:$medium){
+				padding-top: 30px;
+				padding-bottom: 0;
+			}
+
+			li{
+				a{
+					color: #c6c6c6;
+
+					svg{
+						margin-right: 10px;
+						fill: #c6c6c6;
+					}
+
+				}
+			}
+		}
+	}
+
+	&__info{
+		text-align: center;
+
+		@media screen and (min-width:$medium){
+			text-align: left;
+			margin-right: 150px;
+		}
+	}
+
+
+	&__form{
+		padding-right: 0;
+		display: block;
+		position: absolute;
+		right: 0;
+		max-width: 670px;
+		margin: 0;
+		padding: 0;
+
+		input[type="text"],
+		input[type="email"]{
+			max-width: 213px;
+			margin-bottom: 16px;
+			display: inline-block;
+			max-width: 55%;
+			height: 36px;
+			border: 1px solid #7d7d7d;
+			background: #202020;
+			padding: 12px;
+			color: #656565;
+
+		}
+
+		textarea{
+			width: 441px;
+			height: 111px;
+			border: 1px solid #7d7d7d;
+			background: #202020;
+			padding: 12px;
+			color: #656565;
+
+		}
+
+		input{
+			margin-right: 16px;
+		}
+
+	}
+
+	svg{
+		fill: #fff;
+	}
+}

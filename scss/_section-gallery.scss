@@ -1,0 +1,39 @@
+.ba-section-gallery{
+	background-color: #fff;
+	color: $text-color-lighter;
+	padding: 59px 0 30px;
+}
+
+.ba-section-gallery{
+	&__title{
+		color: $text-color-dark;
+		margin: 0 auto;
+		text-align: center;
+		font-weight: 700;
+
+		&::after{
+			content: "";
+			background: $text-color-dark;
+			display: block;
+			height: 1px;
+			width: 45px;
+			margin: 9px auto 0;
+		}
+	}
+
+	&__subtitle{
+		text-align: center;
+		font-size: 12px;
+		font-family: $body-font-family;
+		line-height: 21px;
+		max-width: 524px;
+		margin: 24px auto 63px;
+	}
+
+	&__post{
+		text-align: center;
+		img{
+			margin-bottom: 30px;
+		}
+	}
+}

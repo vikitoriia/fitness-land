@@ -1,0 +1,43 @@
+.ba-section-partners{
+	background-color: #fff;
+	color: $text-color-dark;
+	padding: 60px 0 68px;
+}
+
+.ba-section-partners{
+	&__title{
+		text-align: center;
+		line-height: 21px;
+
+		&::after{
+			content: "";
+			height: 1px;
+			width: 45px;
+			display: block;
+			background-color: $text-color-dark;
+			margin: 9px auto 0;
+		}
+	}
+
+	&__icon{
+		padding-top: 35px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		a {
+			margin: 10px auto 0;
+		}
+
+		@media screen and (min-width: 640px){
+			padding-top: 60px;
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+
+			a + a {
+				margin: 0 auto 0;
+			}
+		}
+	}
+}

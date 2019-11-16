@@ -1,0 +1,88 @@
+$primary-color: #e25050;
+$secondary-color: #272725;
+
+$body-font-family: Open Sans, sans-serif;
+$body-title: Oswald, sans-serif;
+$text-color-dark: #202020;
+$text-color-lighter: #777777;
+
+$medium: 640px;
+$large: 1024px;
+
+
+@import "normalize";
+@import "layout";
+@import "elements";
+@import "fonts";
+
+html {
+	scroll-behavior: smooth;
+ }
+
+body{
+	font: 400 14px/1.5 $body-font-family;
+	color: $text-color-lighter;
+}
+
+/* Layout */
+.ba-container{ 
+	padding-left: 15px;
+	padding-right: 15px;
+	max-width: 1230px;
+	width: 100%;
+}
+
+
+
+h1,h2,h3,h4,h5,h6{
+	line-height: 1;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+h1{
+	font-size: 21px;
+	line-height: 1;
+	font-family: $body-title;
+
+	@media screen and (min-width:$medium){
+		font-size: 30px;		
+	}
+}
+
+h2{
+	font-size: 24px;
+	font-family: $body-title;
+}
+
+h3{
+	font-size: 18px;
+	font-family: $body-title;
+}
+
+h4{
+	font-size: 14px;
+	font-family: $body-title;
+}
+
+h5{
+	font-size: 12px;
+	font-family: $body-title;
+
+}
+
+a{
+	font-family: $body-title;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+@import "header";
+@import "section-intro";
+@import "section-features";
+@import "section-trainers";
+@import "section-gallery";
+@import "section-plans";
+@import "section-partners";
+@import "section-contact";
+@import "footer";
