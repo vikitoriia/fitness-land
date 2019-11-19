@@ -10,6 +10,11 @@
 		text-align: left;
 		align-items: center;
 		border-bottom: 1px solid #323232;
+		margin-bottom: 40px;
+
+		@media screen and (min-width:$medium){
+			margin-bottom: 95px;
+		}
 
 		&-subtitle{
 			font-size: 13px;
@@ -89,46 +94,68 @@
 
 		@media screen and (min-width:$medium){
 			text-align: left;
-			margin-right: 150px;
+		}
+	}
+
+	&__form{
+		&-row{
+			display: flex;
+		}
+
+		&-button{
+			max-width: 100%;
+			text-align: center;
+			height: 36px;
+			line-height: 24px;
+			margin-left: 17px;
+			border-radius: 0;
+			border: none;
+			background-color: #e25050;
+			color: #fff;
+			text-transform: uppercase;
+			font-size: 14px;
+			font-family: Oswald;
+			padding: 6px 27px 6px 27px;
+
+			svg{
+				margin-left: 23px;
+			}
+
+			&:hover{
+				background-color: #be3d3d;
+				color: #fff;
+			}
 		}
 	}
 
 
-	&__form{
-		padding-right: 0;
-		display: block;
-		position: absolute;
-		right: 0;
-		max-width: 670px;
-		margin: 0;
-		padding: 0;
+	form{
+		// display: flex;
 
-		input[type="text"],
-		input[type="email"]{
-			max-width: 213px;
+		input{
+			margin: 0;
+			width: 100%;
 			margin-bottom: 16px;
-			display: inline-block;
-			max-width: 55%;
+			// display: block;
 			height: 36px;
 			border: 1px solid #7d7d7d;
 			background: #202020;
 			padding: 12px;
 			color: #656565;
 
+			& + input{
+				margin-left: 17px;
+			}
 		}
 
 		textarea{
-			width: 441px;
+			width: 65.8%;
 			height: 111px;
 			border: 1px solid #7d7d7d;
 			background: #202020;
 			padding: 12px;
 			color: #656565;
 
-		}
-
-		input{
-			margin-right: 16px;
 		}
 
 	}

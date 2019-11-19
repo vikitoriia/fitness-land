@@ -11,6 +11,7 @@
 		color: #fff;
 		font-weight: 700;
 		text-align: center;
+		margin-bottom: 60px;
 
 		&::after{
 			content: "";
@@ -22,29 +23,26 @@
 		}
 	}
 
-	&__post{
-		// display: flex;
-		// margin: 0 auto;
-		padding-top: 60px;
-		
-
-		&-info{
+	&__post-info{
 			background-color: #fff;
 			max-width: 270px;
 			max-height: 315px;
 			margin-bottom: 20px;
-		}
 
-		&-title{
+			img{
+				width: 100%;
+			}
+	}
+
+	&__post-title{
 			padding-top: 15px;
 			padding-left: 20px;
 			color: $text-color-dark;
 			line-height: 1;
 			text-transform: uppercase;
+	}
 
-		}
-
-		&-position{
+	&__post-position{
 			padding-bottom: 18px;
 			padding-left: 20px;
 			line-height: 1.5;
@@ -52,8 +50,10 @@
 			color: #afafaf;
 			font-size: 12px;
 			font-family: $body-title;
-		}
 	}
+}
 
-	
+.ba-trainers{
+	margin-left: 0;
+	padding: 0 auto;
 }

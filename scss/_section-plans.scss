@@ -88,6 +88,7 @@
 		font-size: 12px;
 		font-family: $body-font-family;
 		padding: 0;
+		list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAf0lEQVQoU4WPwRGCUAxE31YApVCCViJ0oJUoFWgnUgJ2ohWsE+bnj3CQvWSSvMluxB/ZboEnMGoHfAAn4CXbHdBJimGV7YQ+y972G2iAIWHbZ+AKBHSQNAfYA/dyaig1+6OkKWZLxg2c9tWhggVOu2gvkm6/mVdflweQFHFW+gKBvjFQM+6hyQAAAABJRU5ErkJggg==);
 
 		li{
 			&::before{
@@ -98,7 +99,6 @@
     			height: 20px;
     			left: -20px;
    			top: 7px;
-   			
 			}
 		}
 	}

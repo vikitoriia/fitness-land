@@ -28,8 +28,7 @@ body{
 .ba-container{ 
 	padding-left: 15px;
 	padding-right: 15px;
-	max-width: 1230px;
-	width: 100%;
+	max-width: 1200px;
 }
 
 
@@ -79,7 +78,7 @@ a{
 
 @import "header";
 @import "section-intro";
-@import "section-features";
+@import "section-welcome";
 @import "section-trainers";
 @import "section-gallery";
 @import "section-plans";

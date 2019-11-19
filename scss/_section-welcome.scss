@@ -1,0 +1,46 @@
+.ba-section-welcome{
+	background-color: #ffffff;
+	color: $text-color-lighter;
+	padding: 60px 0 70px 0;
+}
+
+.ba-section-welcome{
+	&__title{
+		margin-bottom: 17px;
+		text-align: center;
+		color: #202020;
+		font-size: 30px;
+
+		@media screen and (min-width:$medium){
+			margin-bottom: 17px;
+		}
+
+		em{
+			font-style: normal;
+			color: #e25050;
+		}
+	}
+
+	&__subtitle{
+		color: #a2a2a2;
+		font-size: 16px;
+		font-family: Droid Serif;
+		text-align: center;
+		margin-bottom: 50px;
+	}
+
+	&__item-title{
+		font-size: 14px;
+		display: flex;
+		align-items: center;
+		text-transform: uppercase;
+		margin: 0 0 15px;
+
+		span{
+			color: #202020;
+			margin-left: 15px;
+		}
+	}
+	
+	
+}
